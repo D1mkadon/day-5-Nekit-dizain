@@ -1,0 +1,187 @@
+body {
+  font-family: 'Proxima Nova Rg';
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: initial;
+  background: linear-gradient(to right, rgb(246, 113, 162), rgb(253, 141, 110));
+
+}
+
+.Container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+
+}
+
+.profile-border {
+  box-sizing: border-box;
+  background: linear-gradient(to right bottom, rgb(254, 206, 157), rgb(253, 131, 154));
+  padding: 15px;
+  border-radius: 60px;
+  width: 64%;
+  margin: auto;
+  margin-bottom: 15px;
+  box-shadow: -4px 4px 14px purple;
+}
+
+.profile {
+  box-sizing: border-box;
+  display: flex;
+  margin: auto;
+  position: static;
+  border-radius: 50px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(250, 136, 143), rgb(252, 206, 238));
+}
+
+.profile-ph1,
+.profile-ph2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.profile-ph1 {
+  margin-right: 5px;
+}
+
+.profile-ph2 {
+  box-sizing: border-box;
+  border-radius: 1px solid black;
+}
+
+.profile-ph1div,
+.profile-ph2div {
+  /* margin: -50px; */
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-text {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 34%;
+  font-weight: bold;
+}
+
+.profile-textblock1,
+.profile-textblock2 {
+  background: linear-gradient(rgb(254, 220, 52), rgb(255, 112, 156));
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 40px;
+  width: 95%;
+  color: snow;
+  text-align: center;
+  letter-spacing: initial;
+}
+
+.profile-textblock1 {
+  margin-top: 0px;
+}
+
+.profile-textblock1 h1 {
+  text-align: center;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.profile-textblock1 p {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 14px;
+}
+
+.profile-textblock2 h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.profile-social {
+  background-color: aqua;
+}
+
+.profile-social-together {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.profile-social-number,
+.profile-social-email {
+  text-align: left;
+  margin-left: 5px;
+  /* letter-spacing: 5px; */
+}
+
+.profile-social-number i,
+.profile-social-email i {
+  margin-right: 10px;
+  color: black;
+  text-align: left;
+  font-size: 16px;
+
+}
+
+.github,
+.instagram,
+.telegram {
+  width: 33%;
+}
+
+.github a,
+.instagram a,
+.telegram a {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 14px black
+}
+
+.github a:hover {
+  color: snow;
+}
+
+.telegram a:hover {
+  color: rgb(36, 156, 216);
+}
+
+.instagram a:hover {
+  background-color: rgb(255, 169, 199);
+  background-image: linear-gradient(to left bottom, rgb(135, 0, 184), rgb(231, 6, 209), yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.info-border {
+  box-sizing: border-box;
+  background: linear-gradient(to right bottom, rgb(254, 206, 157), rgb(253, 131, 154));
+  padding: 15px;
+  border-radius: 60px;
+  width: 64%;
+  margin: auto;
+  margin-top: 5px;
+  box-shadow: -4px 4px 14px yellow;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  border-radius: 50px;
+  background-color: rgb(255, 221, 201);
+}
+
+.info-text {
+  padding: 5px;
+  color: snow;
+  text-align: center;
+}
