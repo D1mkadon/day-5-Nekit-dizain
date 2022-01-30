@@ -140,6 +140,7 @@ body {
 .github a,
 .instagram a,
 .telegram a {
+  transition: all 0.3s ease;
   font-size: 35px;
   color: black;
   text-align: center;
@@ -148,14 +149,17 @@ body {
 }
 
 .github a:hover {
+  transition: all 0.3s ease;
   color: snow;
 }
 
 .telegram a:hover {
+  transition: all 0.3s ease;
   color: rgb(36, 156, 216);
 }
 
 .instagram a:hover {
+  transition: all 0.3s ease;
   background-color: rgb(255, 169, 199);
   background-image: linear-gradient(to left bottom, rgb(135, 0, 184), rgb(231, 6, 209), yellow);
   -webkit-background-clip: text;
@@ -207,8 +211,15 @@ body {
   font-family: "Proxima Nova Rg";
   color: aliceblue;
   text-shadow: 0px 0px 4px black;
+  transition: all 0.5s ease;
+  position: relative;
+  top: 0px;
 }
 .button:hover {
+  position: relative;
+  top:2px;
+  transition: all 0.5s ease;
+  padding: 0 20px;
   background-color: rgba(240, 230, 140, 0.7);
   box-shadow: 1px 1px 14px black;
   color: black;
@@ -226,8 +237,10 @@ body {
   font-size: 40px;
   border: 4px solid darkgoldenrod;
   padding-left: 10px;
+  transition: all 0.5s ease-in;
 }
 .inputtext:focus {
+  transition: all 0.5s ease-in;
   border: 4px solid darkgreen;
   box-shadow: 1px 1px 14px yellow;
 }
