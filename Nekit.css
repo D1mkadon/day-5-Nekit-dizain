@@ -106,6 +106,7 @@ body {
 }
 
 .profile-social {
+  
   background-color: aqua;
 }
 
@@ -159,11 +160,11 @@ body {
 }
 
 .instagram a:hover {
-  transition: all 0.3s ease;
   background-color: rgb(255, 169, 199);
   background-image: linear-gradient(to left bottom, rgb(135, 0, 184), rgb(231, 6, 209), yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in;
 }
 
 
@@ -304,5 +305,43 @@ body {
   .profile-textblock1,
   .profile-textblock2 {
     max-width: 100%;
+  }
+}
+.moveblock {
+  width: 280px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+}
+.gradblock {
+  background-color: aliceblue;
+  min-height: 80px;
+  min-width: 80px;
+  border-radius: 50%;
+  animation-name: move-grad-block;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  position: relative;
+  left: 0px;
+}
+.gradblock:hover {
+  transition: all ease 0.5s;
+  background-color: pink;
+  border: 1px solid white;
+}
+@keyframes move-grad-block {
+  0%{
+    left: 0;
+  }
+  50% {
+    background-color: rgb(161, 78, 250);
+    box-shadow: 0px 0px 14px purple;
+    
+  }
+  100%{
+    left: 200px;
+
   }
 }
