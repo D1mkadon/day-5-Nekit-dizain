@@ -61,6 +61,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform:rotate(0deg);
+  transition: ease all 0.5s;
+}
+.profile-ph1div:hover,
+.profile-ph2div:hover {
+  transform:rotate(360deg);
+  transition: ease all 0.5s;
 }
 
 
@@ -174,8 +181,8 @@ body {
 
 
 .info-border {
-  transform:scale(1);
-  transition: ease all 0.5s;
+  /* transform:scale(1);
+  transition: ease all 0.5s; */
   box-sizing: border-box;
   background: linear-gradient(to right bottom, rgb(254, 206, 157), rgb(253, 131, 154));
   padding: 15px;
@@ -185,10 +192,10 @@ body {
   margin-top: 5px;
   box-shadow: -4px 4px 14px yellow;
 }
-.info-border:hover {
+/* .info-border:hover {
   transition: ease all 0.5s;
   transform:scale(1.2);
-}
+} */
 
 .info {
   display: flex;
