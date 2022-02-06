@@ -6,15 +6,12 @@ body {
   background: linear-gradient(to right, rgb(246, 113, 162), rgb(253, 141, 110));
 
 }
-
 .Container {
   box-sizing: border-box;
   max-width: 64%;
   padding: 5px;
   margin: auto;
 }
-
-
 .profile-border {
   box-sizing: border-box;
   background: linear-gradient(to right bottom, rgb(254, 206, 157), rgb(253, 131, 154));
@@ -25,7 +22,6 @@ body {
   margin-bottom: 15px;
   box-shadow: -4px 4px 14px purple;
 }
-
 .profile {
   box-sizing: border-box;
   display: flex;
@@ -35,25 +31,20 @@ body {
   width: 100%;
   background: linear-gradient(to right, rgb(250, 136, 143), rgb(252, 206, 238));
 }
-
 .profile-ph1,
 .profile-ph2 {
   max-width: 100%;
-    /* width: 300px;
+  /* width: 300px;
     height: 300px; */
   border-radius: 15px;
-
 }
-
 .profile-ph1 {
   margin-right: 5px;
 }
-
 .profile-ph2 {
   box-sizing: border-box;
   border-radius: 1px solid black;
 }
-
 .profile-ph1div,
 .profile-ph2div {
   /* margin: -50px; */
@@ -61,23 +52,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform:rotate(0deg);
+  transform: rotate(0deg);
   transition: ease all 0.5s;
 }
 .profile-ph1div:hover,
 .profile-ph2div:hover {
-  transform:rotate(360deg);
+  transform: rotate(360deg);
   transition: ease all 0.5s;
 }
-
-
 .profile-text {
   padding-top: 15px;
   padding-bottom: 15px;
   max-width: 100%;
   font-weight: bold;
 }
-
 .profile-textblock1,
 .profile-textblock2 {
   background: linear-gradient(rgb(254, 220, 52), rgb(255, 112, 156));
@@ -92,7 +80,6 @@ body {
   transform: scale(1);
   transition: all ease 0.8s;
 }
-
 .profile-textblock1:hover,
 .profile-textblock2:hover {
   transform: scale(1.2);
@@ -116,25 +103,21 @@ body {
   text-transform: uppercase;
   margin-bottom: 5px;
 }
-
 .profile-social {
-  
+
   background-color: aqua;
 }
-
 .profile-social-together {
   display: flex;
   width: 100%;
   margin-top: 5px;
 }
-
 .profile-social-number,
 .profile-social-email {
   text-align: left;
   margin-left: 5px;
   /* letter-spacing: 5px; */
 }
-
 .profile-social-number i,
 .profile-social-email i {
   margin-right: 10px;
@@ -143,7 +126,6 @@ body {
   font-size: 16px;
 
 }
-
 .github,
 .instagram,
 .telegram {
@@ -179,7 +161,6 @@ body {
   transition: all 0.3s ease-in;
 }
 
-
 .info-border {
   /* transform:scale(1);
   transition: ease all 0.5s; */
@@ -192,10 +173,6 @@ body {
   margin-top: 5px;
   box-shadow: -4px 4px 14px yellow;
 }
-/* .info-border:hover {
-  transition: ease all 0.5s;
-  transform:scale(1.2);
-} */
 
 .info {
   display: flex;
@@ -210,19 +187,21 @@ body {
   color: snow;
   text-align: center;
 }
-.form{ 
+
+.form {
   max-width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 25px 0 0 0;
 }
+
 .button {
   padding: 5px;
   width: 300px;
   height: 80px;
-  max-width: 300px; 
-  max-height: 80px; 
+  max-width: 300px;
+  max-height: 80px;
   border-radius: 50px;
   background-color: khaki;
   border: 4px solid white;
@@ -234,9 +213,10 @@ body {
   position: relative;
   top: 0px;
 }
+
 .button:hover {
   position: relative;
-  top:2px;
+  top: 2px;
   transition: all 0.5s ease;
   padding: 0 20px;
   background-color: rgba(240, 230, 140, 0.7);
@@ -244,11 +224,13 @@ body {
   color: black;
   text-shadow: 3px 0px 2px white;
 }
-.button:active{
+
+.button:active {
   background-color: rgba(240, 230, 140, 0.4);
   box-shadow: 1px 1px 14px grey;
   border: 4px solid black
 }
+
 .inputtext {
   max-width: 250px;
   max-height: 50px;
@@ -258,17 +240,20 @@ body {
   padding-left: 10px;
   transition: all 0.5s ease-in;
 }
+
 .inputtext:focus {
   transition: all 0.5s ease-in;
   border: 4px solid darkgreen;
   box-shadow: 1px 1px 14px yellow;
 }
+
 .moveblock {
- width: 33%;
+  width: 33%;
   /* background-color: aqua; */
   display: flex;
   justify-content: flex-start;
 }
+
 .gradblock {
   background-color: aliceblue;
   /* transform: translate(-100%); */
@@ -278,68 +263,82 @@ body {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-direction:alternate;
+  animation-direction: alternate;
   position: relative;
   left: 0%;
 }
+
 .gradblock:hover {
   transition: all ease 0.5s;
   background-color: pink;
   border: 1px solid white;
-} 
-@media (max-width:1200px){
+}
+
+@media (max-width:1200px) {
   .Container {
     max-width: 970px;
   }
-  
-  
-}
-@media (max-width:992px){
-  .Container {
-  max-width: 100%;
-}
+
 
 }
-@media (max-width:767px){
+
+@media (max-width:992px) {
+  .Container {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width:767px) {
+
   .profile-text,
   .info-border {
     max-width: none;
   }
+
   .profile {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     flex-direction: column;
   }
+
   .profile-social-number,
   .profile-social-email {
     display: flex;
     justify-content: center;
   }
-  .form{ 
+
+  .form {
     display: flex;
     justify-content: space-between;
     align-content: center;
   }
+
   .inputtext,
   .button {
-    max-width: 200px;
+    max-width: 30%;
     max-height: 30px;
-      font-size: 24px;
-      padding: 0px;
+    font-size: 24px;
+    padding: 0px;
   }
+
   .inputtext {
-    max-width: 150px;
+    /* max-width: 150px; */
     border: 1px solid darkgoldenrod;
   }
+
   .button {
     border: 1px solid white;
   }
+
   .moveblock {
     box-sizing: border-box;
-    width: 33%; ;
-    
+    width: 30%;
+    ;
+
   }
-  .gradblock { 
+
+  .gradblock {
     /* min-width: 0px; */
     /* max-width: 20px;
     max-height: 20px; */
@@ -347,21 +346,25 @@ body {
     animation-name: move-grad-block767;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction:alternate;
+    animation-direction: alternate;
     position: relative;
     animation-duration: 1s;
     left: 0%;
   }
-  
+
 }
+
 @media (max-width:320px) {
+
   .button,
   .inputtext {
     font-size: 14px;
   }
+
   .button {
     min-width: 60px;
   }
+
   .profile-text,
   .profile-textblock1,
   .profile-textblock2 {
@@ -370,31 +373,36 @@ body {
 }
 
 @keyframes move-grad-block {
-  0%{
+  0% {
     left: 0%;
   }
+
   50% {
     background-color: rgb(161, 78, 250);
     box-shadow: 0px 0px 14px purple;
-    
+
   }
-  100%{
+
+  100% {
     left: 100%;
-    transform: translate(-100%,0);
+    transform: translate(-100%, 0);
 
   }
 }
+
 @keyframes move-grad-block767 {
-  0%{
-    left:0;
+  0% {
+    left: 0;
   }
+
   50% {
     background-color: rgb(161, 78, 250);
     box-shadow: 0px 0px 14px purple;
   }
+
   100% {
     left: 100%;
-    transform: translate(-100%,0);
+    transform: translate(-100%, 0);
 
   }
 }
