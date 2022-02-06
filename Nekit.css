@@ -264,17 +264,14 @@ body {
   box-shadow: 1px 1px 14px yellow;
 }
 .moveblock {
-  min-width: 280px;
-  max-width: 280px;
+ width: 33%;
   /* background-color: aqua; */
   display: flex;
   justify-content: flex-start;
 }
 .gradblock {
   background-color: aliceblue;
-  /* max-height: 80px;
-  max-width: 80px; */
-  /* font-size: 20px; */
+  /* transform: translate(-100%); */
   padding: 40px;
   border-radius: 50%;
   animation-name: move-grad-block;
@@ -283,7 +280,7 @@ body {
   animation-iteration-count: infinite;
   animation-direction:alternate;
   position: relative;
-  left: 0px;
+  left: 0%;
 }
 .gradblock:hover {
   transition: all ease 0.5s;
@@ -338,9 +335,8 @@ body {
     border: 1px solid white;
   }
   .moveblock {
-    min-width: 80px;
-    max-width: 80px;
-    max-height: 40px  ;
+    box-sizing: border-box;
+    width: 33%; ;
     
   }
   .gradblock { 
@@ -375,7 +371,7 @@ body {
 
 @keyframes move-grad-block {
   0%{
-    left: 0;
+    left: 0%;
   }
   50% {
     background-color: rgb(161, 78, 250);
@@ -383,7 +379,8 @@ body {
     
   }
   100%{
-    left: 200px;
+    left: 100%;
+    transform: translate(-100%,0);
 
   }
 }
@@ -397,5 +394,7 @@ body {
   }
   100% {
     left: 100%;
+    transform: translate(-100%,0);
+
   }
 }
