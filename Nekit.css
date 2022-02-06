@@ -191,7 +191,7 @@ body {
 .form {
   max-width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 25px 0 0 0;
 }
@@ -232,7 +232,7 @@ body {
 }
 
 .inputtext {
-  max-width: 250px;
+  max-width: 280px;
   max-height: 50px;
   border-radius: 50px;
   font-size: 40px;
@@ -273,7 +273,45 @@ body {
   background-color: pink;
   border: 1px solid white;
 }
-
+.flipcontainer {
+  display: flex;
+  justify-content: center;
+}
+.flip {
+  margin: 40px 0 0 0;
+  width: 33%;
+}
+.flip-body{ 
+  position: relative;
+  width: 100%;
+  height: 200px;
+  transition: all ease 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-front,
+.flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background-color: darkorange;
+  backface-visibility: hidden;
+}
+.flip-back {
+ transform: rotateY(180deg);
+ background-color: blueviolet;
+}
+.flip:hover .flip-body {
+  transform: rotateY(180deg);
+}
 @media (max-width:1200px) {
   .Container {
     max-width: 970px;
