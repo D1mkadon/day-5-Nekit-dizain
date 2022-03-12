@@ -1,4 +1,16 @@
+/* .header {
+padding: 0 0 150px 0px;
+background-color: beige;
+margin: 0;
+max-width: 1519px;
+height: 150px;
+border: 1px solid black;
+border-radius: 15px;
+}
+ */
+
 body {
+  margin: 2;
   font-family: 'Proxima Nova Rg';
   box-sizing: border-box;
   font-size: 16px;
@@ -186,6 +198,22 @@ body {
   padding: 5px;
   color: snow;
   text-align: center;
+}
+.info-text a {
+  text-decoration: none;
+  color: snow;
+  text-shadow: 1px 1px 1px black;
+  font-variant: small-caps;
+}
+.info-text h2 {
+  margin: 0;
+}
+
+.info-text h2:last-child {
+  margin: 0px 10px 10px 10px;
+}
+.info-text h2:first-child {
+  margin: 10px 10px 0px 10px;
 }
 
 .form {
